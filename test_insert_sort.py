@@ -18,3 +18,11 @@ class InsertSortTest(unittest.TestCase):
         result = insertion_sort(number)
 
         self.assertEqual(result, excepted_result)
+    
+    def test_give_5_2_1024_should_more_than_1000(self):
+        number = [5, 2, 1024]
+        excepted_result = 'more than 1000'
+
+        result = insertion_sort(number)
+
+        self.assertEqual(result, excepted_result)
