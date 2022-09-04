@@ -3,6 +3,10 @@ def insertion_sort(d):
     for i in range(1, len(data)):
         if(data[i] > 1000):
             return 'more than 1000'
+            
+        elif(data[i] < -1000):
+            return 'less than 1000'
+
         else:
             key = data[i]
 
