@@ -3,9 +3,9 @@ from insert_sort import insertion_sort
 import unittest
 
 class InsertSortTest(unittest.TestCase):
-    def test_give_5_2_6_should_2_5_6(self):
-        number = [5, 2, 6]
-        excepted_result = [2, 5, 6]
+    def test_give_5_2point5_6_should_2point5_5_6(self):
+        number = [5, 2.5, 6]
+        excepted_result = [2.5, 5, 6]
 
         result = insertion_sort(number)
 
